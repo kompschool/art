@@ -1,0 +1,37 @@
+body * {
+    /* outline: 1px solid orange; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.container * {
+    outline: 2px solid violet;
+}
+.left {
+    width: 30%;
+    height: 450px;
+    float:left;
+}
+.nav {
+    height: 50px;
+    width: 70%;
+    float: right;
+}
+.right {
+    width: 70%;
+    height: 400px;
+    float: right;
+}
+
+/* burger menu  */
+#checkbox {
+    display: none;
+}
+
+.nav li {
+    display:none;
+}

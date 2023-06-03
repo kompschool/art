@@ -1,0 +1,24 @@
+@media screen and (max-width:1000px) {
+
+    .container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container * {
+        width: 100%;        
+    }
+    .left {
+        height: 450px;        
+    }
+    .nav {
+        height: 50px; 
+        order: -1; 
+    }
+    .right {
+        height: 400px;
+    }
+
+    /* burger menu  */
+
+}
